@@ -1,4 +1,7 @@
-*Ejercicio 60:*
+**Ejercicio 60:**
+
+
+[<img src="https://www.thermmark.co.uk/wp-content/uploads/2017/01/TMG003-100LF-Snakes-Ladders-1-100-Large-Full-Solid.png" width="500px">](https://www.thermmark.co.uk/wp-content/uploads/2017/01/TMG003-100LF-Snakes-Ladders-1-100-Large-Full-Solid.png)
 
 El juego de serpientes y escaleras es un clásico juego de mesa que combina suerte y estrategia. En este juego, los jugadores se mueven por un tablero de 100 casillas, tratando de ser el primero en llegar a la casilla final. Sin embargo, el camino hacia la victoria está lleno de obstáculos en forma de serpientes y escaleras que pueden acelerar o retrasar el avance de los jugadores.
 
