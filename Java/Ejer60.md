@@ -17,7 +17,7 @@ Se debe implementar una solución utilizando un lenguaje de programación espec�
 
 5. **Movimiento en el tablero**: Los jugadores avanzan en el sentido de las agujas del reloj a medida que avanzan por el tablero. Si un jugador llega a la casilla 100 exactamente, gana el juego.
 
-6. **Serpientes y escaleras**: Hay serpientes y escaleras ubicadas en ciertas casillas del tablero. Si un jugador cae en una casilla donde termina una serpiente, se mueve a la casilla donde comienza la serpiente. Si un jugador cae en una casilla donde comienza una escalera, se mueve a la casilla donde termina la escalera.
+6. **Serpientes y escaleras**: Hay serpientes y escaleras ubicadas en ciertas casillas del tablero. Si un jugador cae en una casilla donde termina una serpiente, se mueve hacia abajo hasta la casilla donde comienza la serpiente. Si un jugador cae en una casilla donde comienza una escalera, se mueve hacia arriba hasta la casilla donde termina la escalera.
 
 7. **Ganador**: El primer jugador en llegar a la casilla 100 es el ganador del juego.
 
