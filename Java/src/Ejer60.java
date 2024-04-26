@@ -5,7 +5,7 @@ class Ejer60 extends Terminal {
         var dice = 0;
         var posPlayer = 0; // Current player position
         var posPlayer1 = 0; // Current user position
-        var playerScore2 = 0;  // Current PC position
+        var posPlayer2 = 0;  // Current PC position
         var newPosPlayer = 0;
 
         printLine("*****************************************************");
@@ -13,7 +13,7 @@ class Ejer60 extends Terminal {
         printLine("*****************************************************");
         printLine();
 
-        while ((posPlayer1 < 100 && playerScore2 < 100) || (curPlayer == 1)) {
+        while ((posPlayer1 < 100 && posPlayer2 < 100) || (curPlayer == 1)) {
             if (curPlayer == 0) {
                 posPlayer = posPlayer1;
                 printLine("[TURNO DEL USUARIO]");
@@ -21,7 +21,7 @@ class Ejer60 extends Terminal {
                 print("Presione [ENTER] para lanzar el dado...");
                 scanLine();
             } else {
-                posPlayer = playerScore2;
+                posPlayer = posPlayer2;
                 printLine("[TURNO DE LA COMPUTADORA]");
                 printLine("Posicion actual: %d", posPlayer);
                 printLine("Lanzando el dado...");
@@ -75,14 +75,14 @@ class Ejer60 extends Terminal {
             if (curPlayer == 0)
                 posPlayer1 = posPlayer;
             else
-                playerScore2 = posPlayer;
+                posPlayer2 = posPlayer;
 
             printLine();
 
             curPlayer = (curPlayer + 1) % 2;
         }
 
-        if (posPlayer1 == 100 && playerScore2 == 100)
+        if (posPlayer1 == 100 && posPlayer2 == 100)
             printLine("El usuario y la computadora empataron");
         else if (posPlayer1 == 100)
             printLine("El usuario ganó");
